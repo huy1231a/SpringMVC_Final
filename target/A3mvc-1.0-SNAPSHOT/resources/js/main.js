@@ -102,8 +102,9 @@ const loadComments = (prductId, page = 1) => {
                     <p>${c.user.username} commented ${moment(c.createdDate).fromNow()}</p>
                 </div>
             </div>
-`
+`            
         }
+        console.info(data);
     })
 }
 
